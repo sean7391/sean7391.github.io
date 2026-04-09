@@ -100,6 +100,16 @@ main > * {
   margin-bottom: 0;
 }
 
+.about-content a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--text-muted);
+}
+
+.about-content a:hover {
+  text-decoration-color: var(--text-heading);
+}
+
 .social-links {
   display: flex;
   gap: 1rem;
